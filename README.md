@@ -3,9 +3,9 @@ jpzip is a simple program to extract archive that contains files with name in Ja
 
 ![Language](https://img.shields.io/badge/language-python-blue?style=flat-square&logo=python&logoColor=yellow)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square)](https://github.com/psf/black)
-![GitHub](https://img.shields.io/github/license/miracutor/jpzip?style=flat-square)
-![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/miracutor/jpzip?include_prereleases&sort=semver&style=flat-square)
-![GitHub all releases](https://img.shields.io/github/downloads/miracutor/jpzip/total?style=flat-square)
+![GitHub](https://img.shields.io/github/license/Miracutor/jpzip?style=flat-square)
+![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/Miracutor/jpzip?include_prereleases&sort=semver&style=flat-square)
+![GitHub all releases](https://img.shields.io/github/downloads/Miracutor/jpzip/total?style=flat-square)
 
 ## Introduction
 Deal with archive files that contain files with name in Japanese all the time?
@@ -22,7 +22,7 @@ correctly, but it is pain to input those every time.
 That's why I created this program.
 
 ## Installation
-1. Download the archive from Releases.
+1. Download the archive from [Releases](https://github.com/Miracutor/jpzip/releases).
 2. Extract to anywhere you like.
 3. (Optional) Set up the PATH pointed to the directory that you extract the archive. This to make sure that jp7zip is 
 accessible to anywhere in your system.

@@ -21,7 +21,7 @@ import sys
 from pathlib import Path
 
 # Check if 7za.exe is in 7z folder in the same directory as this script
-exe_7zip = Path("7z", "7za.exe")
+exe_7zip = Path(sys.executable).parent / Path("7z", "7za.exe")
 if not exe_7zip.exists():
     print(
         "7za.exe not found in 7z folder. Please download 7za.exe from https://www.7-zip.org/download.html"
@@ -31,7 +31,7 @@ if not exe_7zip.exists():
 # The jpzip program information
 parser = argparse.ArgumentParser(
     description="jpzip is a simple program to extract archive that contains files with "
-    "name in Japanese correctly using 7zip. v1.0.0"
+    "name in Japanese correctly using 7zip. jpzip v1.0.1"
 )
 
 # The jpzip program arguments
@@ -57,7 +57,7 @@ args = parser.parse_args()
 input_zip: Path = Path(args.input)
 if not input_zip.exists():
     print(f"The input archive, {input_zip} does not exist.")
-    sys.exit()
+    exit()
 
 if args.output_same:
     # Create a new folder with the same name as the archive

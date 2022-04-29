@@ -7,7 +7,7 @@ name = "pypi"
 
 [dev-packages]
 black = "*"
-pyinstaller = {path = "F:/Workspace/Built Dependency/pyinstaller-4.4/dist/pyinstaller-4.4-py3-none-win_amd64.whl"}
+pyinstaller = {path = "F:/Workspace/Built Dependency/pyinstaller-4.5/dist/pyinstaller-4.5-py3-none-win_amd64.whl"}
 
 [scripts]
 build = "pipenv run pyinstaller --upx-dir ../upx-3.96-win64 -n jpzip --add-data 7z;7z --clean jpzip.py"

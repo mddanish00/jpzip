@@ -31,8 +31,11 @@ if not exe_7zip.exists():
 # The jpzip program information
 parser = argparse.ArgumentParser(
     description="jpzip is a simple program to extract archive that contains files with "
-    "name in Japanese correctly using 7zip. jpzip v1.0.1"
+    "name in Japanese correctly using 7zip. jpzip v1.0.2"
 )
+
+# The jpzip program version info
+parser.add_argument("-v", "--version", action="version", version="v1.0.2")
 
 # The jpzip program arguments
 group = parser.add_mutually_exclusive_group()

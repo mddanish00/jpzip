@@ -7,6 +7,12 @@ jpzip is a simple program to extract archive that contains files with name in Ja
 ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/Miracutor/jpzip?include_prereleases&sort=semver&style=flat-square)
 ![GitHub all releases](https://img.shields.io/github/downloads/Miracutor/jpzip/total?style=flat-square)
 
+## Status
+Project archived. Don't use old releases. Just use the same command with your own downloaded 7zip.
+```
+7za.exe x -mcp=932 <input archive> -o<output directory>
+```
+
 ## Introduction
 Deal with archive files that contain files with name in Japanese all the time?
 Frequent customer on DLSite or other Japanese sites?
